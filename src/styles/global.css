@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  background: #eee;
+}
+
+.container {
+  width: 98vw;
+  margin: 10px auto;
+  columns: 5;
+  column-gap: 10px;
+}
+
+.container .box {
+  width: 100%;
+  margin: 0 0 10px;
+  overflow: hidden;
+  break-inside: avoid;
+  border-radius: 0.25em;
+}
+
+.grow {
+  transition: all 0.25s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+}
+
+.container .box img {
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    columns: 4;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    columns: 3;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    columns: 1;
+  }
+}

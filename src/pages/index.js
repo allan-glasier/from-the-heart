@@ -1,13 +1,26 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import "../styles/global.css"
 
 export default function Home({ data }) {
   const images = data.allFile.nodes
 
-  return images.map((image, index) => {
-    return <Img fluid={image.childImageSharp.fluid} key={index} />
-  })
+  return (
+    <div className="container">
+      {images.map((image, index) => {
+        return (
+          <div className="box">
+            <Img
+              className="grow"
+              fluid={image.childImageSharp.fluid}
+              key={index}
+            />
+          </div>
+        )
+      })}
+    </div>
+  )
 }
 
 export const query = graphql`
