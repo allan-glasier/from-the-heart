@@ -1,38 +1,18 @@
 import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
-import "../styles/global.css"
+import "../styles/bootstrap.min.css"
+import Navbar from "../inc/Navbar"
+import Photography from "../inc/Photography"
+import Videography from "../inc/Videography"
+import DJ from "../inc/DJ"
 
-export default function Home({ data }) {
-  const images = data.allFile.nodes
-
+export default function Home() {
   return (
-    <div className="container">
-      {images.map((image, index) => {
-        return (
-          <div className="box">
-            <Img
-              className="grow"
-              fluid={image.childImageSharp.fluid}
-              key={index}
-            />
-          </div>
-        )
-      })}
-    </div>
+    <>
+      <Navbar />
+      <section className="hero"></section>
+      <Photography />
+      <Videography />
+      <DJ />
+    </>
   )
 }
-
-export const query = graphql`
-  {
-    allFile {
-      nodes {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  }
-`
