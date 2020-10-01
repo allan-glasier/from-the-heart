@@ -55,6 +55,24 @@
 
 /* Section */
 
+/* Testimonials */
+.testimonials {
+  background-color: rgba(50, 50, 50, 0.05);
+}
+/* Testimonials */
+
+/* Footer */
+footer a {
+  color: #ef442f;
+  transition: ease-in-out 0.3s;
+}
+
+footer a:hover {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+/* Footer */
+
 /* Gallery */
 .gallery {
   margin: 0;
