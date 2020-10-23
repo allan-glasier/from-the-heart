@@ -1,3 +1,30 @@
+body {
+  font-size: 15px;
+}
+
+.header {
+  background: url("https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.header h1 {
+  color: white;
+  background-color: rgba(50, 50, 50, 0.8);
+  padding: 4rem;
+}
+
+span {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 /* index */
 .hero {
   background: url("https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
@@ -5,6 +32,12 @@
   background-size: cover;
   background-position: bottom right;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
 }
 /* index */
 
@@ -72,6 +105,10 @@ footer a:hover {
   text-decoration: none;
 }
 /* Footer */
+
+/* DJ/Choreography */
+
+/* DJ/Choreography */
 
 /* Gallery */
 .gallery {

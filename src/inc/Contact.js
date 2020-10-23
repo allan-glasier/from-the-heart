@@ -2,12 +2,12 @@ import React from "react"
 
 const Contact = () => {
   return (
-    <section className="pt-5 pb-5 dark">
+    <section id="contact" className="pt-5 pb-5 dark">
       <div className="container">
         <h2 className="text-center">Get in Touch</h2>
         <div className="flex">
           <div className="flex-item">
-            <h3 className="text-muted">Add google maps?</h3>
+            <h2>Google Map Here</h2>
           </div>
           <form className="flex-item" action="">
             <div class="form-group">

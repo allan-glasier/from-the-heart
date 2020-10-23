@@ -7,20 +7,23 @@ const Photography = () => {
       <div className="flex">
         <div className="flex-item pr-5">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            praesentium consequuntur cupiditate. Explicabo quia nemo aut harum
-            nostrum. Dolorem a animi perspiciatis nulla ad corporis voluptas
-            placeat rerum. Porro, fuga. sit amet consectetur adipisicing elit.
-            Assumenda praesentium consequuntur cupiditate. Explicabo quia nemo
-            aut harum nostrum. Dolorem a animi perspiciatis nulla ad corporis
-            voluptas placeat rerum. Porro, fuga.
+            Before booking a photographer, allow me to take you for an
+            engagement session for free to establish if we bond (to get a feel
+            for one another) and show you the quality of pictures for your day.
+            After 10 years of working with an array of professional
+            photographers, I was able to establish From the Heart Photography 15
+            years ago, blending all the best attributes of my colleagues and
+            removing the boredom and rules of time that a lot in the industry
+            have.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            praesentium consequuntur cupiditate. Explicabo quia nemo aut harum
-            nostrum. Dolorem a animi perspiciatis nulla ad corporis voluptas
-            placeat rerum. Porro, fuga. animi perspiciatis nulla ad corporis
-            voluptas placeat.
+            Its now been 15 years of wedding photography with professionalism of
+            uniform, equipment and results adding a sense of relaxation to the
+            bride, groom and wedding party giving full day coordination along
+            with it. An iPhone can now take an awesome picture so careful of why
+            you’re investing in a camera that someone carries rather than the
+            person behind it. We also include standard video with all
+            photography packages.
           </p>
           <div className="text-center">
             <a href="#" className="btn btn-outline-primary">

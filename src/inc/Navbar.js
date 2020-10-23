@@ -1,11 +1,12 @@
+import { Link } from "gatsby"
 import React from "react"
 import "../styles/bootstrap.min.css"
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarColor03"
@@ -13,47 +14,47 @@ const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav mr-auto mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+      <div className="collapse navbar-collapse" id="navbarColor03">
+        <ul className="navbar-nav mr-auto mx-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">
               About
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <Link className="nav-link" to="/gallery">
               Gallery
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <Link className="nav-link" to="/film">
               Film
-            </a>
+            </Link>
           </li>
-          <a class="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             From The Heart
-          </a>
-          <a class="navbar-brand" href="#">
+          </Link>
+          <a className="navbar-brand" to="/">
             |
           </a>
-          <a class="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Celebrity Music
-          </a>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          </Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/dj-choreography">
               DJ / choreography
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <Link className="nav-link" to="/blog">
               Blog
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li className="nav-item">
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>
