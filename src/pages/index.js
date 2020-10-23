@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <section className="hero">
-        <h1>Welcome</h1>
+        <h1>[Image Slider and intro]</h1>
       </section>
       <Photography />
       <Videography />
