@@ -10,6 +10,11 @@ export default function Home({ data }) {
 
   return (
     <Layout>
+      <div className="header">
+        <div className="title-bar">
+          <h1 className="text-center">Gallery</h1>
+        </div>
+      </div>
       <div className="gallery mt-5">
         <div className="img-container">
           {images.map((image, index) => {

@@ -35,7 +35,7 @@ const Photography = () => {
         <div className="flex-item">
           <img
             src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-            alt=""
+            alt="7133637A-4D95-4C07-B255-D1A3BBAA509D.jpeg"
           />
         </div>
       </div>

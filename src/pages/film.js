@@ -3,9 +3,12 @@ import Layout from "../layouts/Layout"
 
 export default function film() {
   return (
+    // TODO: Header image: 9D9A2C41-CDA5-4138-9BF6-A89206527EA6.jpeg
     <Layout>
       <div className="header">
-        <h1 className="text-center">Videography</h1>
+        <div className="title-bar">
+          <h1 className="text-center">Videography</h1>
+        </div>
       </div>
       <div className="container my-5">
         <p className="flex-item px-4 text-justify">

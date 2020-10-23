@@ -5,7 +5,9 @@ export default function djChoreography() {
   return (
     <Layout>
       <div className="header">
-        <h1 className="text-center">World Class DJ / Choreography</h1>
+        <div className="title-bar">
+          <h1 className="text-center">World Class DJ & Choreography</h1>
+        </div>
       </div>
       <div className="container my-5">
         <div>
@@ -31,10 +33,11 @@ export default function djChoreography() {
               we DJ’d and what a great time they had and that they remember the
               dance floor being packed all night.
             </p>
+
             <div className="flex-item px-4">
               <img
                 src="https://images.unsplash.com/photo-1596375357724-d016d2bde078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                alt=""
+                alt="D3590E9C-A4DC-49FE-B3C7-7467E3CF4A9F.jpeg"
               />
             </div>
           </div>

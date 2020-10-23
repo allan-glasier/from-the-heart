@@ -5,7 +5,9 @@ export default function about() {
   return (
     <Layout>
       <div className="header">
-        <h1 className="text-center">About Us</h1>
+        <div className="title-bar">
+          <h1 className="text-center">About Us</h1>
+        </div>
       </div>
       <div className="container my-5">
         <p className="flex-item px-4 text-justify">
@@ -16,6 +18,7 @@ export default function about() {
           mouth rather than ads or wedding shows. Trust opinions, not a
           brochure.
         </p>
+        // TODO: EA8B10A0-D352-4BB1-981E-F17306691741.jpeg
       </div>
     </Layout>
   )
