@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 
 const Photography = () => {
@@ -14,9 +15,9 @@ const Photography = () => {
           </p>
 
           <div className="text-center">
-            <a href="#" className="btn btn-outline-primary">
+            <Link to="/dj-choreography" className="btn btn-outline-primary">
               Additional Info
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex-item">

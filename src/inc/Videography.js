@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 
 const Videography = () => {
@@ -21,9 +22,9 @@ const Videography = () => {
               for.
             </p>
             <div className="text-center">
-              <a href="#" className="btn btn-outline-secondary">
+              <Link to="/film" className="btn btn-outline-secondary">
                 View Films
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex-item">
