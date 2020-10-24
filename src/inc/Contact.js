@@ -3,6 +3,9 @@ import React from "react"
 const Contact = () => {
   return (
     <section id="contact" className="pt-5 pb-5 dark">
+      <h5 className="text-center text-muted">
+        *!*Will add map and form functions this weekend*!*
+      </h5>
       <div className="container">
         <h2 className="text-center">Get in Touch</h2>
         <div className="flex">

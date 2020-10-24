@@ -15,6 +15,10 @@ export default function Home({ data }) {
           <h1 className="text-center">Gallery</h1>
         </div>
       </div>
+      <h5 className="text-center">
+        *!*Will update to show full size images*!*
+      </h5>
+      <h5 className="text-center">*!*Will add a intro here this weekend*!*</h5>
       <div className="gallery mt-5">
         <div className="img-container">
           {images.map((image, index) => {

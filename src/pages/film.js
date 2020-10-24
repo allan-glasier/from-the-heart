@@ -11,6 +11,7 @@ export default function film() {
         </div>
       </div>
       <div className="container my-5">
+        <h5 className="text-center">*!*Videos will be added this weekend*!*</h5>
         <p className="flex-item px-4 text-justify">
           I started Celebrity Music 30 years ago because there was a void in the
           city of a DJ that cared. Most DJs sit at a booth with the lights off,

@@ -10,6 +10,9 @@ export default function djChoreography() {
         </div>
       </div>
       <div className="container my-5">
+        <h5 className="text-center">
+          *!*Photos will be updated this weekend*!*
+        </h5>
         <div>
           <div className="my-2 flex">
             <p className="flex-item px-4 text-justify">
