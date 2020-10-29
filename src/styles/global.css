@@ -40,10 +40,6 @@ span {
 
 /* index */
 .hero {
-  background: url("../images/6DE8829E-18B6-4B0E-A9E1-3EC62CE0D398.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom right;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -63,7 +59,7 @@ span {
 }
 
 .hero-top {
-  margin-top: 30vh;
+  margin-top: 20vh;
   color: white;
 }
 

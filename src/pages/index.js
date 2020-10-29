@@ -4,22 +4,28 @@ import Img from "gatsby-image"
 import Videography from "../inc/Videography"
 import Testimonials from "../inc/Testimonials"
 import Layout from "../layouts/Layout"
+import HomepageSlider from "../inc/HomepageSlider"
+import Carousel from "react-elastic-carousel"
 
-import AnimatedHero1 from "../components/AnimatedHero1"
-import AnimatedHero2 from "../components/AnimatedHero2"
-import AnimatedHero3 from "../components/AnimatedHero3"
 import AnimatedHero4 from "../components/AnimatedHero4"
 
 export default function Home({ data }) {
   return (
     <Layout>
+      <HomepageSlider />
       <section className="hero">
         <div className="hero-overlay text-center">
           <div className="hero-top">
             <h1>FROM THE HEART | CELEBRITY MUSIC</h1>
-            <AnimatedHero1 />
-
-            <AnimatedHero3 />
+            <Carousel
+              itemsToShow={1}
+              enableAutoPlay={true}
+              autoPlaySpeed={2000}
+            >
+              <h3>2,700 weddings and counting</h3>
+              <h3>100% word of mouth</h3>
+              <h3>Experience the best in wedding entertainment</h3>
+            </Carousel>
           </div>
           <div className="hero-bottom">
             <AnimatedHero4 />

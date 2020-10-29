@@ -12,7 +12,7 @@ const AnimatedHero2 = () => {
       opacity: 1,
       marginBottom: 20,
     },
-    delay: 2500,
+    delay: 4500,
     config: {
       duration: 1000,
     },
