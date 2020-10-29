@@ -22,7 +22,7 @@ const Videography = () => {
               for.
             </p>
             <div className="text-center mt-5">
-              <Link to="/film" className="btn btn-outline-secondary">
+              <Link to="/videography" className="btn btn-outline-secondary">
                 additional info
               </Link>
             </div>

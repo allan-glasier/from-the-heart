@@ -22,7 +22,7 @@ export default function about({ data }) {
           pride in being able to read a crowd and keep everyone happy. Your meal
           may be good, but if your entertainment isn’t, then everyone goes home
           early and will not remember your wedding. Numerable times, even years
-          later, he recieves glowing reviews by guests of a wedding Celebrity
+          later, we recieve glowing reviews by guests of a wedding Celebrity
           Music has been a part of. It is often remarked upon how much fun the
           reception was. As first impressions go, Celebrity Music aims high.
         </p>

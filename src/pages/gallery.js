@@ -19,10 +19,10 @@ export default function Home({ data }) {
         <p>
           We don't just take pictures, we capture memories, experiences and
           emotion. We don't want to give you a photo album that just collects
-          dust over the years. We want to deliver photos that make laugh about
-          the great times you had. Photos that remind you of your special day
-          and all the nerves, happiness and love you felt. We believe you will
-          love our work and our personalities so much that we offer a free
+          dust over the years. We want to deliver photos that make you laugh
+          about the great times you had. Photos that remind you of your special
+          day and all the nerves, happiness and love you felt. We believe you
+          will love our work and our personalities so much that we offer a free
           engagement session so you can get to know us and see if we are right
           for you and feel better that we are worth your time and money.
         </p>
