@@ -15,11 +15,19 @@ export default function Home({ data }) {
           <h1 className="text-center">Gallery</h1>
         </div>
       </div>
-      <h5 className="text-center">
-        *!*Will update to show full size images*!*
-      </h5>
-      <h5 className="text-center">*!*Will add a intro here this weekend*!*</h5>
-      <div className="gallery mt-5">
+      <div className="container my-5 pt-2">
+        <p>
+          We don't just take pictures, we capture memories, experiences and
+          emotion. We don't want to give you a photo album that just collects
+          dust over the years. We want to deliver photos that make laugh about
+          the great times you had. Photos that remind you of your special day
+          and all the nerves, happiness and love you felt. We believe you will
+          love our work and our personalities so much that we offer a free
+          engagement session so you can get to know us and see if we are right
+          for you and feel better that we are worth your time and money.
+        </p>
+      </div>
+      <div className="gallery">
         <div className="img-container">
           {images.map((image, index) => {
             return (

@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../layouts/Layout"
+import Img from "gatsby-image"
 
-export default function djChoreography() {
+export default function djChoreography({ data }) {
   return (
     <Layout>
       <div className="header">
@@ -10,49 +11,36 @@ export default function djChoreography() {
         </div>
       </div>
       <div className="container my-5">
-        <h5 className="text-center">
-          *!*Photos will be updated this weekend*!*
-        </h5>
         <div>
-          <div className="my-2 flex">
-            <p className="flex-item px-4 text-justify">
-              You know, Bride and Grooms spend approximately 1-2 years planning
-              a wedding; shopping for “THE” dress, picking out rings, deciding
-              on which limo company to use or not to use, finding the perfect
-              venue with great food, and the list goes on. Choosing your
-              entertainment for the evening is one of the most important
-              decisions you’ll have to make. So you’re at your reception now on
-              Cloud 9 because you just finished your first dinner together as
-              husband and wife, speeches are done and then 9pm hits. The music
-              the DJ is playing doesn’t get or keep the party going, night’s
-              over. (Poor choice in the DJ company hired). You know you’ve been
-              to a wedding like that. This is Scenario 1. Now picture Scenario
-              2: If all the above was cut in half for whatever reasons, yet your
-              dance floor was full all night and your guests are having a great
-              time all because you hired Celebrity Music, you and your family
-              and friends will remember your wedding for a lifetime. I can’t
-              tell you how many times we’ve run into people over the years that
-              say they still remember a wedding they were at 20 years ago where
-              we DJ’d and what a great time they had and that they remember the
-              dance floor being packed all night.
-            </p>
-
-            <div className="flex-item px-4">
-              <img
-                src="https://images.unsplash.com/photo-1596375357724-d016d2bde078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                alt="D3590E9C-A4DC-49FE-B3C7-7467E3CF4A9F.jpeg"
-              />
-            </div>
+          <p className="text-justify">
+            You know, Bride and Grooms spend approximately 1-2 years planning a
+            wedding; shopping for “THE” dress, picking out rings, deciding on
+            which limo company to use or not to use, finding the perfect venue
+            with great food, and the list goes on. Choosing your entertainment
+            for the evening is one of the most important decisions you’ll have
+            to make. So you’re at your reception now on Cloud 9 because you just
+            finished your first dinner together as husband and wife, speeches
+            are done and then 9pm hits. The music the DJ is playing doesn’t get
+            or keep the party going, night’s over. (Poor choice in the DJ
+            company hired). You know you’ve been to a wedding like that. This is
+            Scenario 1. Now picture Scenario 2: If all the above was cut in half
+            for whatever reasons, yet your dance floor was full all night and
+            your guests are having a great time all because you hired Celebrity
+            Music, you and your family and friends will remember your wedding
+            for a lifetime. I can’t tell you how many times we’ve run into
+            people over the years that say they still remember a wedding they
+            were at 20 years ago where we DJ’d and what a great time they had
+            and that they remember the dance floor being packed all night.
+          </p>
+          <div className="flex-item py-4">
+            <Img
+              className="img-shadow"
+              fluid={data.image1.childImageSharp.fluid}
+            />
           </div>
           <div>
-            <div className="flex my-2">
-              <div className="flex-item px-4">
-                <img
-                  src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-                  alt=""
-                />
-              </div>
-              <p className="flex-item px-4 text-justify">
+            <div className="flex my-3">
+              <p className="flex-item text-justify">
                 A Disc Jockey should be a Master of Ceremonies, able to MC with
                 proper pronunciation of names, know when and when not to speak,
                 knowing how to feel the crowd. He/She should supply music while
@@ -71,7 +59,7 @@ export default function djChoreography() {
               </p>
             </div>
             <div>
-              <p className="flex-item px-4 my-4 text-justify">
+              <p className="flex-item text-justify">
                 We are always in contact with the hall managers to make sure
                 service does not interrupt with speeches during dinner. This
                 does make a difference. Our background/dinner music is at a
@@ -100,3 +88,17 @@ export default function djChoreography() {
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    image1: file(
+      relativePath: { eq: "59C08A31-367A-4556-BE81-1E10F43279C7.jpeg" }
+    ) {
+      childImageSharp {
+        fluid(jpegQuality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

@@ -30,8 +30,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/film">
-              Film
+            <Link className="nav-link" to="/videography">
+              Videography
             </Link>
           </li>
           <Link className="navbar-brand" to="/">

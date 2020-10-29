@@ -21,9 +21,9 @@ const Videography = () => {
               relax you and make you smile naturally is an ability we are known
               for.
             </p>
-            <div className="text-center">
+            <div className="text-center mt-5">
               <Link to="/film" className="btn btn-outline-secondary">
-                View Films
+                additional info
               </Link>
             </div>
           </div>

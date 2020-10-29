@@ -2,6 +2,10 @@ body {
   font-size: 15px;
 }
 
+.white {
+  color: white;
+}
+
 .header {
   /* background: url("https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); */
   background: url("../images/9D9A2C41-CDA5-4138-9BF6-A89206527EA6.jpeg");
@@ -58,11 +62,12 @@ span {
   justify-content: space-between;
 }
 
-.hero h1 {
+.hero-top {
   margin-top: 30vh;
   color: white;
 }
 
+.hero h1,
 .hero h3,
 .hero h5 {
   color: white;
@@ -105,7 +110,7 @@ span {
   justify-content: space-around;
 }
 
-.flex-item img {
+.img-shadow {
   width: 100%;
   box-shadow: 3px 10px 18px 3px #323232;
 }
