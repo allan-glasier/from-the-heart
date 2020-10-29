@@ -1,7 +1,7 @@
 import React from "react"
 import { useSpring, animated } from "react-spring"
 
-const AnimatedHero1 = () => {
+const AnimatedHero2 = () => {
   const fade = useSpring({
     from: {
       opacity: 0,
@@ -9,17 +9,17 @@ const AnimatedHero1 = () => {
     to: {
       opacity: 1,
     },
-    delay: 1000,
+    delay: 2000,
     config: {
       duration: 1000,
     },
   })
 
   return (
-    <animated.h3 className="animated-hero1" style={fade}>
-      2,700 weddings and counting
+    <animated.h3 className="animated-hero2" style={fade}>
+      100% word of mouth
     </animated.h3>
   )
 }
 
-export default AnimatedHero1
+export default AnimatedHero2

@@ -4,9 +4,11 @@ import Img from "gatsby-image"
 import Videography from "../inc/Videography"
 import Testimonials from "../inc/Testimonials"
 import Layout from "../layouts/Layout"
-import { FaArrowDown } from "react-icons/fa"
 
 import AnimatedHero1 from "../components/AnimatedHero1"
+import AnimatedHero2 from "../components/AnimatedHero2"
+import AnimatedHero3 from "../components/AnimatedHero3"
+import AnimatedHero4 from "../components/AnimatedHero4"
 
 export default function Home({ data }) {
   return (
@@ -16,18 +18,11 @@ export default function Home({ data }) {
           <div className="hero-top">
             <h1>FROM THE HEART | CELEBRITY MUSIC</h1>
             <AnimatedHero1 />
-            <h3>100% word of mouth --// fade in second</h3>
-            <h3>
-              Experience why we are the most trusted name <br /> in wedding
-              entertainment --// fade in and replace above 2 lines
-            </h3>
+
+            <AnimatedHero3 />
           </div>
           <div className="hero-bottom">
-            <h5>
-              Scroll for More info --// jump up from bottom after above complete
-              <br />
-              <FaArrowDown />
-            </h5>
+            <AnimatedHero4 />
           </div>
         </div>
       </section>

@@ -52,9 +52,7 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <div className="form-group">
-              <p>[Captcha Here]</p>
-            </div>
+            <div className="form-group"></div>
           </form>
         </div>
       </div>
