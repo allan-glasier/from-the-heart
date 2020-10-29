@@ -125,6 +125,15 @@ span {
 .testimonials {
   background-color: rgba(50, 50, 50, 0.05);
 }
+
+.rec.rec-arrow {
+  visibility: hidden;
+}
+
+.rec.rec-dot {
+  visibility: hidden;
+}
+
 /* Testimonials */
 
 /* Footer */
