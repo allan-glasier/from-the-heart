@@ -52,7 +52,11 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <div className="form-group"></div>
+            <div className="form-group mt-3 text-center">
+              <a href="#" className="btn btn-outline-secondary w-100">
+                Submit
+              </a>
+            </div>
           </form>
         </div>
       </div>
