@@ -3,10 +3,10 @@ import React from "react"
 
 export default function Photography() {
   return (
-    <section className="section container py-5">
+    <section className="section container">
       <h2 className="text-center">From the Heart Photography</h2>
       <div className="flex">
-        <div className="flex-item pr-5">
+        <div className="flex-item">
           <p>
             Before booking a photographer, allow me to take you for an
             engagement session for free to establish if we bond (to get a feel

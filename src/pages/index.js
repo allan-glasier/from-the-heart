@@ -39,10 +39,10 @@ export default function Home({ data }) {
           </div>
         </div>
       </section>
-      <section className="section container pt-5 pb-5">
+      <section className="section container">
         <h2 className="text-center">From the Heart Photography</h2>
         <div className="flex">
-          <div className="flex-item pr-5">
+          <div className="flex-item">
             <p>
               Before booking a photographer, allow me to take you for an
               engagement session for free to establish if we bond (to get a feel
@@ -62,7 +62,7 @@ export default function Home({ data }) {
               rather than the person behind it. We also include standard video
               with all photography packages.
             </p>
-            <div className="text-center mt-4">
+            <div className="text-center">
               <Link to="/gallery" className="btn btn-outline-primary">
                 View Gallery
               </Link>
@@ -77,10 +77,10 @@ export default function Home({ data }) {
         </div>
       </section>
       <Videography />
-      <section className="section container pt-5 pb-5">
+      <section className="section container">
         <h2 className="text-center">Celebrity Music DJ / Choreography</h2>
         <div className="flex">
-          <div className="flex-item pr-5">
+          <div className="flex-item">
             <p>
               Choosing a song because its a hit is simple. You might as well use
               and iPod. Having someone represent, MC, coordinate and play the
@@ -96,7 +96,7 @@ export default function Home({ data }) {
               day and would be honored to be part of yours!
             </p>
 
-            <div className="text-center mt-4">
+            <div className="text-center">
               <Link to="/dj-choreography" className="btn btn-outline-primary">
                 Additional Info
               </Link>

@@ -3,10 +3,10 @@ import React from "react"
 
 const Photography = () => {
   return (
-    <section className="section container pt-5 pb-5">
+    <section className="section container">
       <h2 className="text-center">Celebrity Music DJ / Choreography</h2>
       <div className="flex">
-        <div className="flex-item pr-5">
+        <div className="flex-item">
           <p>
             Choosing a song because its a hit is simple. You might as well use
             and iPod. Having someone represent, MC, coordinate and play the 2nd

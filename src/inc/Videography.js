@@ -3,11 +3,11 @@ import React from "react"
 
 const Videography = () => {
   return (
-    <section className="section py-5 dark">
+    <section className="section dark">
       <div className="container">
         <h2 className="text-center">From the Heart Videography</h2>
         <div className="flex flex-row-reverse">
-          <div className="flex-item pl-5">
+          <div className="flex-item">
             <p>
               20 years ago we brought videography to our company and have done
               over 400 weddings. We maintain professionalism in our uniform,
@@ -21,13 +21,13 @@ const Videography = () => {
               relax you and make you smile naturally is an ability we are known
               for.
             </p>
-            <div className="text-center mt-5">
+            <div className="text-center">
               <Link to="/videography" className="btn btn-outline-secondary">
                 additional info
               </Link>
             </div>
           </div>
-          <div className="flex-item">
+          <div className="flex-item hidden-small">
             <iframe
               width="560"
               height="315"

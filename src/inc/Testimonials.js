@@ -3,7 +3,7 @@ import Carousel from "react-elastic-carousel"
 
 const Testimonials = () => {
   return (
-    <section className="section container pb-5">
+    <section className="section hidden-small container pb-5">
       <div className="testimonials pt-5 pb-5">
         <h2 className="text-center">What People are Saying About Us</h2>
         <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={5000}>
