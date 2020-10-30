@@ -31,6 +31,7 @@ const Contact = () => {
                 id="name"
                 aria-describedby="name"
                 placeholder="Enter name"
+                name="name"
               />
             </div>
             <div class="form-group">
@@ -41,6 +42,7 @@ const Contact = () => {
                 id="email"
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
+                name="email"
               />
               <small id="emailHelp" class="form-text text-muted">
                 We'll never share your email with anyone else.
@@ -52,6 +54,7 @@ const Contact = () => {
                 class="form-control"
                 id="exampleTextarea"
                 rows="3"
+                name="message"
               ></textarea>
             </div>
             <div className="form-group mt-3 text-center">
