@@ -18,7 +18,7 @@ const Contact = () => {
             className="flex-item"
             method="post"
             netlify-honeypot="bot-field"
-            dataq-netlify="true"
+            data-netlify="true"
             name="contact"
           >
             <input type="hidden" name="bot-field" />
