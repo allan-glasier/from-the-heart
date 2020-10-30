@@ -48,7 +48,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    allFile {
+    allFile(filter: { absolutePath: { regex: "/images/" } }) {
       nodes {
         childImageSharp {
           fluid {
