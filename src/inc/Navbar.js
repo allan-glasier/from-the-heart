@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
+
 import "../styles/bootstrap.min.css"
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button
@@ -35,13 +36,10 @@ const Navbar = () => {
             </Link>
           </li>
           <Link className="navbar-brand" to="/">
-            From The Heart
+            <img src={"/fthLogo.png"} alt="" />
           </Link>
-          <a className="navbar-brand" to="/">
-            |
-          </a>
           <Link className="navbar-brand" to="/">
-            Celebrity Music
+            <img src={"/celebrityLogo.png"} alt="" />
           </Link>
           <li className="nav-item">
             <Link className="nav-link" to="/dj-choreography">
@@ -63,5 +61,3 @@ const Navbar = () => {
     </nav>
   )
 }
-
-export default Navbar

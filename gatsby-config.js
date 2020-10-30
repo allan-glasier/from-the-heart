@@ -12,6 +12,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `logos`,
+        path: path.join(__dirname, `src`, `logos`),
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `backgrounds`,
         path: path.join(__dirname, `src`, `backgroundImages`),
       },

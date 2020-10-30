@@ -16,7 +16,14 @@ export default function Home({ data }) {
       <section className="hero">
         <div className="hero-overlay text-center">
           <div className="hero-top">
-            <h1>FROM THE HEART | CELEBRITY MUSIC</h1>
+            <div className="hero-logos">
+              <div className="logo">
+                <Img fluid={data.fthLogo.childImageSharp.fluid} />
+              </div>
+              <div className="logo">
+                <Img fluid={data.celebrityLogo.childImageSharp.fluid} />
+              </div>
+            </div>
             <Carousel
               itemsToShow={1}
               enableAutoPlay={true}
@@ -122,6 +129,20 @@ export const query = graphql`
     djImage: file(
       relativePath: { eq: "BE832D04-31BE-4711-AA2A-C11E197EE57A.jpeg" }
     ) {
+      childImageSharp {
+        fluid(jpegQuality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    celebrityLogo: file(relativePath: { eq: "celebrityLogo-white.png" }) {
+      childImageSharp {
+        fluid(jpegQuality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    fthLogo: file(relativePath: { eq: "fthLogo-white.png" }) {
       childImageSharp {
         fluid(jpegQuality: 100) {
           ...GatsbyImageSharpFluid
