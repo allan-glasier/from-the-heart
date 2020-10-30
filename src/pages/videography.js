@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout"
 export default function videography() {
   return (
     <Layout>
-      <div className="header">
+      <div className="header header-videography">
         <div className="title-bar">
           <h1 className="text-center">Videography</h1>
         </div>

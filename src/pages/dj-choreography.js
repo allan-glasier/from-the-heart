@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 export default function djChoreography({ data }) {
   return (
     <Layout>
-      <div className="header">
+      <div className="header header-dj">
         <div className="title-bar">
           <h1 className="text-center">World Class DJ & Choreography</h1>
         </div>

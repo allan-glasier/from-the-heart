@@ -10,7 +10,7 @@ export default function Home({ data }) {
 
   return (
     <Layout>
-      <div className="header">
+      <div className="header header-gallery">
         <div className="title-bar">
           <h1 className="text-center">Gallery</h1>
         </div>

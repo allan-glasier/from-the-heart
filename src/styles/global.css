@@ -12,11 +12,6 @@ body {
 }
 
 .header {
-  /* background: url("https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); */
-  background: url("../images/9D9A2C41-CDA5-4138-9BF6-A89206527EA6.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 25% 90%;
   height: 40vh;
   display: flex;
   align-items: center;
@@ -26,6 +21,41 @@ body {
 
 .header h1 {
   color: white;
+}
+
+.header-about {
+  background: url("../images/9D9A2C41-CDA5-4138-9BF6-A89206527EA6.jpeg");
+  background-position: 25% 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-gallery {
+  background: url("../images/D3590E9C-A4DC-49FE-B3C7-7467E3CF4A9F.jpeg");
+  background-position: 25% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-videography {
+  background: url("../images/82E149ED-F524-4228-909D-159FC3338AC5.jpeg");
+  background-position: 25% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-dj {
+  background: url("../images/BE832D04-31BE-4711-AA2A-C11E197EE57A.jpeg");
+  background-position: 25% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-blog {
+  background: url("../images/BFDA5D7E-6D8C-4593-926D-83495E48E950.jpeg");
+  background-position: 25% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title-bar {

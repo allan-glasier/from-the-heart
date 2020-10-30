@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 export default function about({ data }) {
   return (
     <Layout>
-      <div className="header">
+      <div className="header header-about">
         <div className="title-bar">
           <h1 className="text-center">About Us</h1>
         </div>

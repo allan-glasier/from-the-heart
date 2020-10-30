@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout"
 export default function blog() {
   return (
     <Layout>
-      <div className="header">
+      <div className="header header-blog">
         <div className="title-bar">
           <h1 className="text-center">Blog</h1>
         </div>
