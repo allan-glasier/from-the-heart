@@ -9,18 +9,20 @@ const Contact = () => {
           <div className="flex-item flex justify-content-center text-center">
             <h3 className="white">Call or Text</h3>
             <h4 className="white">
-              Office:&nbsp;
-              <a className="white" href="tel:519-966-0442">
-                519-966-0442
-              </a>
-              <br />
-              Cell:&nbsp;
               <a className="white" href="tel:519-791-2501">
                 519-791-2501
               </a>
             </h4>
           </div>
-          <form className="flex-item" action="">
+          <form
+            className="flex-item"
+            method="post"
+            netlify-honeypot="bot-field"
+            dataq-netlify="true"
+            name="contact"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <div class="form-group">
               <label for="name">Your Name</label>
               <input
@@ -53,9 +55,9 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="form-group mt-3 text-center">
-              <a href="#" className="btn btn-outline-secondary w-100">
+              <button type="submit" className="btn btn-outline-secondary w-100">
                 Submit
-              </a>
+              </button>
             </div>
           </form>
         </div>

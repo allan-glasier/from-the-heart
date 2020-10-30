@@ -1,8 +1,7 @@
 import React from "react"
 import Layout from "../layouts/Layout"
-import Img from "gatsby-image"
 
-export default function about({ data }) {
+export default function about() {
   return (
     <Layout>
       <div className="header header-about">
@@ -27,26 +26,9 @@ export default function about({ data }) {
           reception was. As first impressions go, Celebrity Music aims high.
         </p>
         <div className="flex-item px-3">
-          <Img
-            className="img-shadow"
-            fluid={data.image1.childImageSharp.fluid}
-          />
+          <img className="img-shadow" src={"/joe.jpeg"} />
         </div>
       </div>
     </Layout>
   )
 }
-
-export const query = graphql`
-  {
-    image1: file(
-      relativePath: { eq: "EA8B10A0-D352-4BB1-981E-F17306691741.jpeg" }
-    ) {
-      childImageSharp {
-        fluid(jpegQuality: 100) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`

@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+.white a:hover {
+  color: grey;
+}
+
 .header {
   height: 40vh;
   display: flex;
