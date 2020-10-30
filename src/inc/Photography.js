@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Photography() {
   return (
-    <section className="section container pt-5 pb-5">
+    <section className="section container py-5">
       <h2 className="text-center">From the Heart Photography</h2>
       <div className="flex">
         <div className="flex-item pr-5">

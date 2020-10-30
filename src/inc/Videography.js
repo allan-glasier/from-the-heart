@@ -3,7 +3,7 @@ import React from "react"
 
 const Videography = () => {
   return (
-    <section className="section pt-5 pb-5 dark">
+    <section className="section py-5 dark">
       <div className="container">
         <h2 className="text-center">From the Heart Videography</h2>
         <div className="flex flex-row-reverse">

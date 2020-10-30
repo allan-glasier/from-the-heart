@@ -122,6 +122,12 @@ span {
   object-fit: contain;
   padding: 1.5rem;
 }
+
+@media only screen and (max-width: 992px) {
+  .hero-logos {
+    visibility: hidden;
+  }
+}
 /* index */
 
 /* Section */
@@ -167,6 +173,31 @@ span {
 
 .flex-item p {
   text-align: justify;
+}
+
+@media only screen and (max-width: 992px) {
+  .flex {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+  }
+
+  .flex-row-reverse {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+
+  .flex-row-reverse .flex-item {
+    padding-left: 0 !important;
+    margin-top: 2rem;
+  }
+
+  .flex-item p {
+    padding-left: 2rem;
+  }
+
+  .img-shadow {
+    margin-bottom: 2rem;
+  }
 }
 
 /* Section */
