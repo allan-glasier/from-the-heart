@@ -97,6 +97,31 @@ span {
 }
 
 /* index */
+
+.mobile-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-logo {
+    display: flex;
+    align-items: center;
+    height: 0.25vh;
+    margin-right: 30vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-logo {
+    margin-right: 20vw;
+  }
+}
+
+.mobile-logo img {
+  height: 60px;
+  margin-left: 2rem;
+}
+
 .hero {
   height: 100vh;
   display: flex;
