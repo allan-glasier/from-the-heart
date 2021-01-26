@@ -6,8 +6,6 @@ import "../styles/bootstrap.min.css"
 import "../styles/global.css"
 
 export default function Gallery({ data }) {
-  const images = data.sanityGallery.images ? data.sanityGallery.images : null
-
   return (
     <Layout>
       <div className="header header-gallery">
@@ -30,7 +28,7 @@ export default function Gallery({ data }) {
 
       <div className="gallery">
         <div className="img-container">
-          {images.map((image, index) => {
+          {data.sanityGallery.images.map((image, index) => {
             return (
               <div className="box">
                 {image.asset && (
