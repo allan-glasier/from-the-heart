@@ -4,15 +4,18 @@ import Img from "gatsby-image"
 import Videography from "../inc/Videography"
 import Testimonials from "../inc/Testimonials"
 import Layout from "../layouts/Layout"
-import HomepageSlider from "../inc/HomepageSlider"
 import Carousel from "react-elastic-carousel"
+import AwesomeSlider from "react-awesome-slider"
+import withAutoplay from "react-awesome-slider/dist/autoplay"
+import AwesomeSliderStyles from "react-awesome-slider/dist/styles.css?raw"
 
 import AnimatedHero4 from "../components/AnimatedHero4"
 
 export default function Home({ data }) {
+  const AutoplaySlider = withAutoplay(AwesomeSlider)
+  const images = data.sliderImages.images
   return (
     <Layout>
-      <HomepageSlider />
       <section className="hero">
         <div className="hero-overlay text-center">
           <div className="hero-top">
@@ -39,6 +42,19 @@ export default function Home({ data }) {
           </div>
         </div>
       </section>
+      <AutoplaySlider
+        style={AwesomeSliderStyles}
+        className="homeSlider"
+        infinite={true}
+        play={true}
+        interval={5000}
+        bullets={false}
+        buttons={false}
+      >
+        {images.map((image, index) => {
+          return <div data-src={image.asset.fluid.srcWebp} key={index} />
+        })}
+      </AutoplaySlider>
       <section className="section container">
         <h2 className="text-center">From the Heart Photography</h2>
         <div className="flex">
@@ -146,6 +162,15 @@ export const query = graphql`
       childImageSharp {
         fluid(jpegQuality: 100) {
           ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sliderImages: sanityHomeSlider {
+      images {
+        asset {
+          fluid(maxWidth: 1200) {
+            srcWebp
+          }
         }
       }
     }

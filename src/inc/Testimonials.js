@@ -7,7 +7,7 @@ const Testimonials = () => {
       <div className="testimonials pt-5 pb-5">
         <h2 className="text-center">What People are Saying About Us</h2>
         <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={5000}>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p>
               I wish we could put into words how grateful we are to the both of
               you. Not only did Celebrity Music coordinate our rehearsal dinner;
@@ -30,11 +30,11 @@ const Testimonials = () => {
               suffice for all that you guys have done to make sure our wedding
               day was out of a fairy tale.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Allan & Sara - <cite title="Source Title">June 27th, 2015</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p>
               Wonderful Personality of both Joe and Sharron!. I always laughed
               during the one on one meetings.
@@ -48,11 +48,11 @@ const Testimonials = () => {
               guarantee you will not regret the decision! Use them! They are
               there to help you! 100% value for what they offer.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Far Han - <cite title="Source Title">June 18th, 2020</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               This power couple just gave us one of the best days of our life.
               very organized, charismatic, always there to help with any and
@@ -60,12 +60,12 @@ const Testimonials = () => {
               respect and I couldn't have asked for more. Joe and Sharon, much
               love and blessings from Mr. and Mrs. Darbison.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Kris Darbison -{" "}
               <cite title="Source Title">February 16th, 2020</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               Joe and Sharon were absolutely amazing to work with! They had
               wonderful tips at our planning meetings, ran our rehearsal, and
@@ -78,12 +78,12 @@ const Testimonials = () => {
               incredible to work with! Thank you for making my wedding memorable
               and amazing!
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Victoria Elizabeth -{" "}
               <cite title="Source Title">July 31st, 2019</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               Joe and Sharon are absolutely amazing. They went absolutely above
               and beyond what a regular dj/photographer would do. I would
@@ -92,11 +92,11 @@ const Testimonials = () => {
               Absolutely amazing photographers and DJs, had the crowd going the
               whole event and took beautiful photos
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Tim Huff - <cite title="Source Title">June 25th, 2019</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               We were SO happy with our wedding last year, this couple did a
               fantastic job with our bi-cultural wedding- making sure both sides
@@ -108,12 +108,12 @@ const Testimonials = () => {
               know you and they care about how your day will go. They are
               honest, professional, and worth every penny.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Yasmin Ghandehari -{" "}
               <cite title="Source Title">November 16th, 2018</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               We chose to hire Joe and Sharon for our wedding and they were
               incredible! They work so well together as a team and make sure
@@ -127,12 +127,12 @@ const Testimonials = () => {
               married I would highly recommend that you meet with Joe and Sharon
               before hiring anyone else.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Katie Lafontaine -{" "}
               <cite title="Source Title">September 24th, 2018</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               My wife and I just got married this past Sunday. From the moment
               we met Joe and Sharon we knew that we had a winning combination on
@@ -150,11 +150,11 @@ const Testimonials = () => {
               DEFINITELY recommend Joe and Sharon for your special functions.
               You won't be disappointed!!!
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Joe Caruana - <cite title="Source Title">October 12th, 2017</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p className="mb-0">
               I've had the opportunity to work with Joe for a few weddings now.
               I must say everyone needs to hire Celebrity Music. Joe is honest
@@ -166,11 +166,11 @@ const Testimonials = () => {
               I cannot say enough great things about them. I highly recommend
               them!
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Anita Deanne - <cite title="Source Title">July 25th, 2017</cite>
             </footer>
           </blockquote>
-          <blockquote class="blockquote text-center px-5 pt-5">
+          <blockquote className="blockquote text-center px-5 pt-5">
             <p>
               Joe and Sharon have changed what it means to offer wedding DJ
               services. You might as well fire your wedding coordinator and hire
@@ -199,7 +199,7 @@ const Testimonials = () => {
               nice and always focused on making your wedding what YOU want it to
               be. Thank you Sharon and Joe, A+++ service.
             </p>
-            <footer class="blockquote-footer">
+            <footer className="blockquote-footer">
               Kevin C. Whelan -{" "}
               <cite title="Source Title">December 20th, 2016</cite>
             </footer>

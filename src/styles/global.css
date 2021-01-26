@@ -132,11 +132,20 @@ span {
   margin-left: 2rem;
 }
 
+.homeSlider {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  height: 100vh;
+}
+
 .hero {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .hero-overlay {

@@ -22,13 +22,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `backgrounds`,
-        path: path.join(__dirname, `src`, `backgroundImages`),
-      },
-    },
-    {
       resolve: "gatsby-source-sanity",
       options: {
         projectId: "7o6tnne5",
