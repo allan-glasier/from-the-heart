@@ -29,6 +29,7 @@ const Videography = () => {
           </div>
           <div className="flex-item hidden-small">
             <iframe
+              title="videography"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/rHQri6V45pY"

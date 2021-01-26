@@ -6,7 +6,7 @@ import "../styles/bootstrap.min.css"
 import "../styles/global.css"
 
 export default function Home({ data }) {
-  const images = data.allFile.nodes
+  const images = data.sanityGallery.images
 
   return (
     <Layout>
@@ -27,16 +27,15 @@ export default function Home({ data }) {
           for you and feel better that we are worth your time and money.
         </p>
       </div>
+
       <div className="gallery">
         <div className="img-container">
           {images.map((image, index) => {
             return (
               <div className="box">
-                <Img
-                  className="grow"
-                  fluid={image.childImageSharp.fluid}
-                  key={index}
-                />
+                {image.asset && (
+                  <Img className="grow" fluid={image.asset.fluid} key={index} />
+                )}
               </div>
             )
           })}
@@ -48,11 +47,11 @@ export default function Home({ data }) {
 
 export const query = graphql`
   {
-    allFile(filter: { absolutePath: { regex: "/images/" } }) {
-      nodes {
-        childImageSharp {
+    sanityGallery {
+      images {
+        asset {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbySanityImageFluid
           }
         }
       }

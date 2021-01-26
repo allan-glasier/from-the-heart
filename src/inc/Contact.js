@@ -23,35 +23,35 @@ const Contact = () => {
           >
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
-            <div class="form-group">
-              <label for="name">Your Name</label>
+            <div className="form-group">
+              <label htmlFor="name">Your Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="name"
                 aria-describedby="name"
                 placeholder="Enter name"
                 name="name"
               />
             </div>
-            <div class="form-group">
-              <label for="email">Your Email</label>
+            <div className="form-group">
+              <label htmlFor="email">Your Email</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="email"
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
                 name="email"
               />
-              <small id="emailHelp" class="form-text text-muted">
+              <small id="emailHelp" className="form-text text-muted">
                 We'll never share your email with anyone else.
               </small>
             </div>
-            <div class="form-group">
-              <label for="exampleTextarea">Message</label>
+            <div className="form-group">
+              <label htmlFor="exampleTextarea">Message</label>
               <textarea
-                class="form-control"
+                className="form-control"
                 id="exampleTextarea"
                 rows="3"
                 name="message"

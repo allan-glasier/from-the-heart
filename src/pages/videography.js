@@ -26,6 +26,7 @@ export default function videography() {
         </div>
         <div className="flex-item">
           <iframe
+            title="videography"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/rHQri6V45pY"
@@ -40,6 +41,7 @@ export default function videography() {
           className="btn btn-outline-primary"
           href="https://www.youtube.com/channel/UCl8ikOyHZWHk_wFQrScaVHQ/videos"
           target="_blank"
+          rel="noreferrer"
         >
           Visit our Youtube Channel
         </a>

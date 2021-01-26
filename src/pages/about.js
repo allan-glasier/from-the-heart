@@ -32,7 +32,7 @@ export default function about() {
           first impressions go, Celebrity Music aims high.
         </p>
         <div className="flex-item px-3">
-          <img className="img-shadow" src={"/joe.jpeg"} />
+          <img className="img-shadow" src={"/joe.jpeg"} alt="joe" />
         </div>
       </div>
     </Layout>
