@@ -5,8 +5,8 @@ import Layout from "../layouts/Layout"
 import "../styles/bootstrap.min.css"
 import "../styles/global.css"
 
-export default function Home({ data }) {
-  const images = data.sanityGallery.images
+export default function Gallery({ data }) {
+  const images = data.sanityGallery.images ? data.sanityGallery.images : null
 
   return (
     <Layout>
