@@ -28,15 +28,20 @@ export default function Gallery({ data }) {
 
       <div className="gallery">
         <div className="img-container">
-          {data.sanityGallery.images.map((image, index) => {
-            return (
-              <div className="box">
-                {image.asset && (
-                  <Img className="grow" fluid={image.asset.fluid} key={index} />
-                )}
-              </div>
-            )
-          })}
+          {data.sanityGallery.images &&
+            data.sanityGallery.images.map((image, index) => {
+              return (
+                <div className="box">
+                  {image.asset && (
+                    <Img
+                      className="grow"
+                      fluid={image.asset.fluid}
+                      key={index}
+                    />
+                  )}
+                </div>
+              )
+            })}
         </div>
       </div>
     </Layout>
