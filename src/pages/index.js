@@ -14,6 +14,11 @@ import AnimatedHero4 from "../components/AnimatedHero4"
 export default function Home({ data }) {
   const AutoplaySlider = withAutoplay(AwesomeSlider)
   const images = data.sliderImages.images
+  const carouselItems = [
+    { id: 1, text: "2,700 weddings and counting" },
+    { id: 1, text: "100% word of mouth" },
+    { id: 1, text: "Experience the best in wedding entertainment" },
+  ]
   return (
     <Layout>
       <section className="hero">
@@ -28,16 +33,14 @@ export default function Home({ data }) {
               </div>
             </div>
             <Carousel
-              className="carousel"
               itemsToShow={1}
               easing={"ease"}
               enableAutoPlay={true}
               autoPlaySpeed={2000}
             >
-              <h3></h3>
-              <h3>2,700 weddings and counting</h3>
-              <h3>100% word of mouth</h3>
-              <h3>Experience the best in wedding entertainment</h3>
+              {carouselItems.map(item => (
+                <h3 key={item.id}>{item.text}</h3>
+              ))}
             </Carousel>
           </div>
           <div className="hero-bottom">
