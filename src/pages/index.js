@@ -28,10 +28,13 @@ export default function Home({ data }) {
               </div>
             </div>
             <Carousel
+              className="carousel"
               itemsToShow={1}
+              easing={"ease"}
               enableAutoPlay={true}
               autoPlaySpeed={2000}
             >
+              <h3></h3>
               <h3>2,700 weddings and counting</h3>
               <h3>100% word of mouth</h3>
               <h3>Experience the best in wedding entertainment</h3>
