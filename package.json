@@ -16,6 +16,7 @@
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
     "@sanity/image-url": "^0.140.19",
+    "babel-plugin-styled-components": "^1.12.0",
     "bootstrap": "^4.5.3",
     "date-fns": "^1.30.1",
     "dotenv": "^8.2.0",
@@ -24,6 +25,7 @@
     "gatsby-image-background-slider": "0.0.4",
     "gatsby-plugin-sass": "^2.3.13",
     "gatsby-plugin-sharp": "^2.6.36",
+    "gatsby-plugin-styled-components": "^3.9.0",
     "gatsby-source-filesystem": "^2.3.30",
     "gatsby-source-sanity": "^6.0.5",
     "gatsby-source-strapi": "0.0.12",
@@ -36,7 +38,7 @@
     "react-elastic-carousel": "^0.9.1",
     "react-icons": "^3.11.0",
     "react-spring": "^8.0.27",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "2.1.1"

@@ -16,8 +16,8 @@ export default function Home({ data }) {
   const images = data.sliderImages.images
   const carouselItems = [
     { id: 1, text: "2,700 weddings and counting" },
-    { id: 1, text: "100% word of mouth" },
-    { id: 1, text: "Experience the best in wedding entertainment" },
+    { id: 2, text: "100% word of mouth" },
+    { id: 3, text: "Experience the best in wedding entertainment" },
   ]
   return (
     <Layout>
