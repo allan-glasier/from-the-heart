@@ -42,6 +42,17 @@ const Contact = () => {
               />
             </div>
             <div className="form-group">
+              <label htmlFor="name">Your Phone</label>
+              <input
+                type="tel"
+                className="form-control"
+                id="phone"
+                aria-describedby="phone"
+                placeholder="Enter phone"
+                name="phone"
+              />
+            </div>
+            <div className="form-group">
               <label htmlFor="email">Your Email</label>
               <input
                 type="email"
