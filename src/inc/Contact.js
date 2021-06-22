@@ -13,6 +13,13 @@ const Contact = () => {
                 519-791-2501
               </a>
             </h4>
+            <hr />
+            <h3 className="white">Email</h3>
+            <h4 className="white">
+              <a className="white" href="mailto:celebritymusicjoe@gmail.com">
+                celebritymusicjoe@gmail.com
+              </a>
+            </h4>
           </div>
           <form
             className="flex-item"
